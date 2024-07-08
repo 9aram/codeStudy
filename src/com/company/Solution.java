@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        String str = "string";
+        String str = "test";
         int n = 5;
         int len = str.length();
         if( 1<=len && len<=10 && 1<=n && n<=5){
