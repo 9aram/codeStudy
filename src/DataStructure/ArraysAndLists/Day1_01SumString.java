@@ -2,7 +2,7 @@ package DataStructure.ArraysAndLists;
 
 import java.util.Scanner;
 //#11720
-public class Day1_SumString {
+public class Day1_01SumString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
