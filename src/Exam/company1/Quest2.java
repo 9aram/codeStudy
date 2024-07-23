@@ -7,9 +7,10 @@ public class Quest2 {
         public int solution(int N, int[][] road, int K) {
             int[][] d = new int[N+1][N+1];
             //초기화
+            //무한대로 초기화한다
             for(int i = 0 ; i <= N ; i++)
                 Arrays.fill(d[i], INF);
-
+            //나 자신은 0으로 초기화 한다
             for(int i = 1 ; i <= N ; i++)
                 d[i][i] = 0;
 
